@@ -10025,7 +10025,9 @@ DIN A4, landscape with extra doc field</description>
 <smd name="P$58" x="31.75" y="5.08" dx="1.905" dy="8.128" layer="16"/>
 <smd name="P$59" x="34.29" y="5.08" dx="1.905" dy="8.128" layer="16"/>
 <smd name="P$60" x="36.83" y="5.08" dx="1.905" dy="8.128" layer="16"/>
-<dimension x1="-50" y1="22" x2="50" y2="22" x3="0" y3="27" textsize="1.6764" layer="21" dtype="horizontal"/>
+<wire x1="-50" y1="20" x2="-50" y2="64" width="0.127" layer="21"/>
+<wire x1="-50" y1="64" x2="50" y2="64" width="0.127" layer="21"/>
+<wire x1="50" y1="64" x2="50" y2="20" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
